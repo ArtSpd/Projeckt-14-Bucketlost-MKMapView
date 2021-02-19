@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C23D302025DFD14600241210 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23D301F25DFD14600241210 /* AppDelegate.swift */; };
+		C23D302225DFD14600241210 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23D302125DFD14600241210 /* SceneDelegate.swift */; };
+		C23D302425DFD14600241210 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23D302325DFD14600241210 /* ContentView.swift */; };
+		C23D302725DFD14600241210 /* Projeckt_14_Bucketlost_MKMapView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C23D302525DFD14600241210 /* Projeckt_14_Bucketlost_MKMapView.xcdatamodeld */; };
+		C23D302925DFD14700241210 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C23D302825DFD14700241210 /* Assets.xcassets */; };
+		C23D302C25DFD14700241210 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C23D302B25DFD14700241210 /* Preview Assets.xcassets */; };
+		C23D302F25DFD14700241210 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C23D302D25DFD14700241210 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C23D301C25DFD14600241210 /* Projeckt 14 Bucketlost MKMapView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Projeckt 14 Bucketlost MKMapView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C23D301F25DFD14600241210 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C23D302125DFD14600241210 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C23D302325DFD14600241210 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C23D302625DFD14600241210 /* Projeckt_14_Bucketlost_MKMapView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Projeckt_14_Bucketlost_MKMapView.xcdatamodel; sourceTree = "<group>"; };
+		C23D302825DFD14700241210 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C23D302B25DFD14700241210 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C23D302E25DFD14700241210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C23D303025DFD14700241210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C23D301925DFD14600241210 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C23D301325DFD14600241210 = {
+			isa = PBXGroup;
+			children = (
+				C23D301E25DFD14600241210 /* Projeckt 14 Bucketlost MKMapView */,
+				C23D301D25DFD14600241210 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C23D301D25DFD14600241210 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C23D301C25DFD14600241210 /* Projeckt 14 Bucketlost MKMapView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C23D301E25DFD14600241210 /* Projeckt 14 Bucketlost MKMapView */ = {
+			isa = PBXGroup;
+			children = (
+				C23D301F25DFD14600241210 /* AppDelegate.swift */,
+				C23D302125DFD14600241210 /* SceneDelegate.swift */,
+				C23D302325DFD14600241210 /* ContentView.swift */,
+				C23D302825DFD14700241210 /* Assets.xcassets */,
+				C23D302D25DFD14700241210 /* LaunchScreen.storyboard */,
+				C23D303025DFD14700241210 /* Info.plist */,
+				C23D302525DFD14600241210 /* Projeckt_14_Bucketlost_MKMapView.xcdatamodeld */,
+				C23D302A25DFD14700241210 /* Preview Content */,
+			);
+			path = "Projeckt 14 Bucketlost MKMapView";
+			sourceTree = "<group>";
+		};
+		C23D302A25DFD14700241210 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C23D302B25DFD14700241210 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C23D301B25DFD14600241210 /* Projeckt 14 Bucketlost MKMapView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C23D303325DFD14700241210 /* Build configuration list for PBXNativeTarget "Projeckt 14 Bucketlost MKMapView" */;
+			buildPhases = (
+				C23D301825DFD14600241210 /* Sources */,
+				C23D301925DFD14600241210 /* Frameworks */,
+				C23D301A25DFD14600241210 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Projeckt 14 Bucketlost MKMapView";
+			productName = "Projeckt 14 Bucketlost MKMapView";
+			productReference = C23D301C25DFD14600241210 /* Projeckt 14 Bucketlost MKMapView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C23D301425DFD14600241210 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					C23D301B25DFD14600241210 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = C23D301725DFD14600241210 /* Build configuration list for PBXProject "Projeckt 14 Bucketlost MKMapView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C23D301325DFD14600241210;
+			productRefGroup = C23D301D25DFD14600241210 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C23D301B25DFD14600241210 /* Projeckt 14 Bucketlost MKMapView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C23D301A25DFD14600241210 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C23D302F25DFD14700241210 /* LaunchScreen.storyboard in Resources */,
+				C23D302C25DFD14700241210 /* Preview Assets.xcassets in Resources */,
+				C23D302925DFD14700241210 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C23D301825DFD14600241210 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C23D302025DFD14600241210 /* AppDelegate.swift in Sources */,
+				C23D302225DFD14600241210 /* SceneDelegate.swift in Sources */,
+				C23D302725DFD14600241210 /* Projeckt_14_Bucketlost_MKMapView.xcdatamodeld in Sources */,
+				C23D302425DFD14600241210 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C23D302D25DFD14700241210 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C23D302E25DFD14700241210 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C23D303125DFD14700241210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C23D303225DFD14700241210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C23D303425DFD14700241210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Projeckt 14 Bucketlost MKMapView/Preview Content\"";
+				DEVELOPMENT_TEAM = ASQ268B8RQ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Projeckt 14 Bucketlost MKMapView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Projeckt-14-Bucketlost-MKMapView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C23D303525DFD14700241210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Projeckt 14 Bucketlost MKMapView/Preview Content\"";
+				DEVELOPMENT_TEAM = ASQ268B8RQ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Projeckt 14 Bucketlost MKMapView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Projeckt-14-Bucketlost-MKMapView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C23D301725DFD14600241210 /* Build configuration list for PBXProject "Projeckt 14 Bucketlost MKMapView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C23D303125DFD14700241210 /* Debug */,
+				C23D303225DFD14700241210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C23D303325DFD14700241210 /* Build configuration list for PBXNativeTarget "Projeckt 14 Bucketlost MKMapView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C23D303425DFD14700241210 /* Debug */,
+				C23D303525DFD14700241210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C23D302525DFD14600241210 /* Projeckt_14_Bucketlost_MKMapView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C23D302625DFD14600241210 /* Projeckt_14_Bucketlost_MKMapView.xcdatamodel */,
+			);
+			currentVersion = C23D302625DFD14600241210 /* Projeckt_14_Bucketlost_MKMapView.xcdatamodel */;
+			path = Projeckt_14_Bucketlost_MKMapView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C23D301425DFD14600241210 /* Project object */;
+}
