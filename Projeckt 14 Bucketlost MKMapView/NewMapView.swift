@@ -34,7 +34,6 @@ struct NewMapView: View{
                         newLocation.title = "Example"
                         newLocation.coordinate = self.centerCoordinate
                         self.locations.append(newLocation)
-                        
                         self.selectedPlace = newLocation
                         self.showingEditScrenn = true
                     }, label: {
@@ -46,7 +45,7 @@ struct NewMapView: View{
                     .foregroundColor(.white)
                     .font(.title)
                     .clipShape(Circle())
-                    .padding(.trailing)
+                    .padding(.bottom)
                 }
             }
         }
