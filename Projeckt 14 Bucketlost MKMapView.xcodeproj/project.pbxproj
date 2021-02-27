@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C216712D25E98AF000D5824E /* NewMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C216712C25E98AF000D5824E /* NewMapView.swift */; };
+		C22C679725E7F059007DFAA4 /* MKPoinitAnnotation-Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22C679625E7F059007DFAA4 /* MKPoinitAnnotation-Observable.swift */; };
+		C22C679A25E7F110007DFAA4 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22C679925E7F110007DFAA4 /* EditView.swift */; };
+		C22C679D25E7F372007DFAA4 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22C679C25E7F372007DFAA4 /* Result.swift */; };
+		C22C67A025E7FCCE007DFAA4 /* MKPointAnnotation-Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22C679F25E7FCCE007DFAA4 /* MKPointAnnotation-Codable.swift */; };
 		C23D302025DFD14600241210 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23D301F25DFD14600241210 /* AppDelegate.swift */; };
 		C23D302225DFD14600241210 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23D302125DFD14600241210 /* SceneDelegate.swift */; };
 		C23D302425DFD14600241210 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23D302325DFD14600241210 /* ContentView.swift */; };
@@ -14,9 +19,15 @@
 		C23D302925DFD14700241210 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C23D302825DFD14700241210 /* Assets.xcassets */; };
 		C23D302C25DFD14700241210 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C23D302B25DFD14700241210 /* Preview Assets.xcassets */; };
 		C23D302F25DFD14700241210 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C23D302D25DFD14700241210 /* LaunchScreen.storyboard */; };
+		C23D303C25DFD19800241210 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23D303B25DFD19800241210 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C216712C25E98AF000D5824E /* NewMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMapView.swift; sourceTree = "<group>"; };
+		C22C679625E7F059007DFAA4 /* MKPoinitAnnotation-Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKPoinitAnnotation-Observable.swift"; sourceTree = "<group>"; };
+		C22C679925E7F110007DFAA4 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		C22C679C25E7F372007DFAA4 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		C22C679F25E7FCCE007DFAA4 /* MKPointAnnotation-Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKPointAnnotation-Codable.swift"; sourceTree = "<group>"; };
 		C23D301C25DFD14600241210 /* Projeckt 14 Bucketlost MKMapView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Projeckt 14 Bucketlost MKMapView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C23D301F25DFD14600241210 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C23D302125DFD14600241210 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +37,7 @@
 		C23D302B25DFD14700241210 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C23D302E25DFD14700241210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C23D303025DFD14700241210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C23D303B25DFD19800241210 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +73,12 @@
 				C23D301F25DFD14600241210 /* AppDelegate.swift */,
 				C23D302125DFD14600241210 /* SceneDelegate.swift */,
 				C23D302325DFD14600241210 /* ContentView.swift */,
+				C216712C25E98AF000D5824E /* NewMapView.swift */,
+				C22C679925E7F110007DFAA4 /* EditView.swift */,
+				C23D303B25DFD19800241210 /* MapView.swift */,
+				C22C679625E7F059007DFAA4 /* MKPoinitAnnotation-Observable.swift */,
+				C22C679F25E7FCCE007DFAA4 /* MKPointAnnotation-Codable.swift */,
+				C22C679C25E7F372007DFAA4 /* Result.swift */,
 				C23D302825DFD14700241210 /* Assets.xcassets */,
 				C23D302D25DFD14700241210 /* LaunchScreen.storyboard */,
 				C23D303025DFD14700241210 /* Info.plist */,
@@ -150,7 +168,13 @@
 			files = (
 				C23D302025DFD14600241210 /* AppDelegate.swift in Sources */,
 				C23D302225DFD14600241210 /* SceneDelegate.swift in Sources */,
+				C22C679725E7F059007DFAA4 /* MKPoinitAnnotation-Observable.swift in Sources */,
+				C23D303C25DFD19800241210 /* MapView.swift in Sources */,
+				C216712D25E98AF000D5824E /* NewMapView.swift in Sources */,
+				C22C679A25E7F110007DFAA4 /* EditView.swift in Sources */,
 				C23D302725DFD14600241210 /* Projeckt_14_Bucketlost_MKMapView.xcdatamodeld in Sources */,
+				C22C67A025E7FCCE007DFAA4 /* MKPointAnnotation-Codable.swift in Sources */,
+				C22C679D25E7F372007DFAA4 /* Result.swift in Sources */,
 				C23D302425DFD14600241210 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,7 +244,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -275,7 +299,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
