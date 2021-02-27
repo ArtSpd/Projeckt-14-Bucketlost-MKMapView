@@ -46,7 +46,7 @@ struct NewMapView: View{
                     .foregroundColor(.white)
                     .font(.title)
                     .clipShape(Circle())
-                    .padding()
+                    .padding(.trailing)
                 }
             }
         }
